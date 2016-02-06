@@ -1,0 +1,47 @@
+checkin_date,checkin_time,seq_no,departure_date,flight_number,seat_number,from,to,departure_time
+26/03/2014,08:43,117,28/03/2014,FR2642,28A,London / Stansted (STN/EGSS),Riga / Riga (RIX/EVRA),17:05:00
+26/03/2014,08:48,64,30/03/2014,FR2224,23D,Tallinn / Ulemiste (TLL/EETN),London / Stansted (STN/EGSS),22:45:00
+04/07/2014,20:38,134,06/07/2014,FR2224,28A,Tallinn / Ulemiste (TLL/EETN),London / Stansted (STN/EGSS),22:45:00
+11/07/2014,18:24,56,17/07/2014,FR752,14E,London / Stansted (STN/EGSS),Hahn / Hahn (HHN/EDFH),07:20:00
+13/07/2014,23:49,35,20/07/2014,FR9775,19C,Karlsruhe/Baden Baden / Soellingen (FKB/EDSB),London / Stansted (STN/EGSS),17:40:00
+01/08/2014,23:40,30,08/08/2014,FR2225,15D,London / Stansted (STN/EGSS),Tallinn / Ulemiste (TLL/EETN),06:35:00
+07/08/2014,12:18,51,13/08/2014,FR2224,14C,Tallinn / Ulemiste (TLL/EETN),London / Stansted (STN/EGSS),22:00:00
+22/09/2014,11:31,54,26/09/2014,FR2225,14B,London / Stansted (STN/EGSS),Tallinn / Ulemiste (TLL/EETN),06:35:00
+22/09/2014,11:31,33,28/09/2014,FR2224,20C,Tallinn / Ulemiste (TLL/EETN),London / Stansted (STN/EGSS),22:45:00
+10/10/2014,17:38,94,15/10/2014,FR2225,10F,London / Stansted (STN/EGSS),Tallinn / Ulemiste (TLL/EETN),16:50:00
+04/11/2014,23:15,90,07/11/2014,FR2225,10D,London / Stansted (STN/EGSS),Tallinn / Ulemiste (TLL/EETN),06:55:00
+04/11/2014,23:15,65,10/11/2014,FR2224,22F,Tallinn / Ulemiste (TLL/EETN),London / Stansted (STN/EGSS),12:05:00
+21/11/2014,14:52,29,28/11/2014,FR682,15A,London / Stansted (STN/EGSS),Vasteras / Hasslo (VST/ESOW),10:50:00
+01/12/2014,08:20,108,03/12/2014,FR2224,25A,Tallinn / Ulemiste (TLL/EETN),London / Stansted (STN/EGSS),12:05:00
+14/12/2014,20:18,26,21/12/2014,FR2225,19C,London / Stansted (STN/EGSS),Tallinn / Ulemiste (TLL/EETN),06:55:00
+02/02/2015,23:58,31,09/02/2015,FR2224,15C,Tallinn / Ulemiste (TLL/EETN),London / Stansted (STN/EGSS),12:05:00
+16/02/2015,21:57,74,21/02/2015,FR4192,10E,London / Stansted (STN/EGSS),Bergamo / Orio Al Serio (BGY/LIME),08:00:00
+19/02/2015,21:38,95,24/02/2015,FR4197,9B,Bergamo / Orio Al Serio (BGY/LIME),London / Stansted (STN/EGSS),18:30:00
+09/03/2015,10:53,34,13/03/2015,FR2225,15E,London / Stansted (STN/EGSS),Tallinn / Ulemiste (TLL/EETN),06:55:00
+09/03/2015,10:54,28,16/03/2015,FR2224,19F,Tallinn / Ulemiste (TLL/EETN),London / Stansted (STN/EGSS),12:05:00
+22/03/2015,21:50,64,27/03/2015,FR2225,22D,London / Stansted (STN/EGSS),Tallinn / Ulemiste (TLL/EETN),06:55:00
+24/03/2015,23:49,69,30/03/2015,FR2224,23A,Tallinn / Ulemiste (TLL/EETN),London / Stansted (STN/EGSS),12:00:00
+08/04/2015,20:05,34,15/04/2015,FR2225,19C,London / Stansted (STN/EGSS),Tallinn / Ulemiste (TLL/EETN),06:45:00
+03/05/2015,16:42,39,08/05/2015,FR2225,15B,London / Stansted (STN/EGSS),Tallinn / Ulemiste (TLL/EETN),06:45:00
+04/05/2015,11:07,33,11/05/2015,FR2224,22B,Tallinn / Ulemiste (TLL/EETN),London / Stansted (STN/EGSS),12:00:00
+03/07/2015,09:22,8,10/07/2015,FR1392,33D,London / Stansted (STN/EGSS),Rygge / Moss (RYG/ENRY),08:25:00
+03/07/2015,13:39,9,10/07/2015,FR1341,33F,Rygge / Moss (RYG/ENRY),Tallinn / Ulemiste (TLL/EETN),15:25:00
+06/07/2015,14:31,40,13/07/2015,FR2224,22F,Tallinn / Ulemiste (TLL/EETN),London / Stansted (STN/EGSS),11:25:00
+17/07/2015,09:36,26,24/07/2015,FR1392,33C,London / Stansted (STN/EGSS),Rygge / Moss (RYG/ENRY),08:35:00
+17/07/2015,20:30,25,24/07/2015,FR1341,19C,Rygge / Moss (RYG/ENRY),Tallinn / Ulemiste (TLL/EETN),15:25:00
+29/07/2015,12:56,37,05/08/2015,FR2225,19C,London / Stansted (STN/EGSS),Tallinn / Ulemiste (TLL/EETN),06:45:00
+12/08/2015,17:48,50,19/08/2015,FR2225,15F,London / Stansted (STN/EGSS),Tallinn / Ulemiste (TLL/EETN),06:45:00
+02/09/2015,12:55,17,09/09/2015,FR2225,33F,London / Stansted (STN/EGSS),Tallinn / Ulemiste (TLL/EETN),06:45:00
+08/09/2015,00:23,42,14/09/2015,FR2224,15A,Tallinn / Ulemiste (TLL/EETN),London / Stansted (STN/EGSS),12:00:00
+18/09/2015,23:10,30,25/09/2015,FR2225,15A,London / Stansted (STN/EGSS),Tallinn / Ulemiste (TLL/EETN),06:45:00
+22/09/2015,19:24,71,28/09/2015,FR2224,08B,Tallinn / Ulemiste (TLL/EETN),London / Stansted (STN/EGSS),12:00:00
+11/10/2015,11:01,41,17/10/2015,FR2642,24E,London / Stansted (STN/EGSS),Riga / Riga (RIX/EVRA),06:25:00
+14/10/2015,14:28,38,21/10/2015,FR2224,20C,Tallinn / Ulemiste (TLL/EETN),London / Stansted (STN/EGSS),12:00:00
+22/10/2015,12:57,40,29/10/2015,FR9810,20C,London / Stansted (STN/EGSS),Barcelona / El Prat (BCN/LEBL),08:15:00
+26/10/2015,18:36,59,02/11/2015,FR3843,15D,Barcelona / El Prat (BCN/LEBL),London / Stansted (STN/EGSS),15:40:00
+13/11/2015,23:14,18,20/11/2015,FR2225,20A,London / Stansted (STN/EGSS),Tallinn / Ulemiste (TLL/EETN),06:45:00
+22/11/2015,15:47,26,29/11/2015,FR2224,19D,Tallinn / Ulemiste (TLL/EETN),London / Stansted (STN/EGSS),12:00:00
+02/12/2015,14:27,36,09/12/2015,FR2225,19F,London / Stansted (STN/EGSS),Tallinn / Ulemiste (TLL/EETN),06:45:00
+31/12/2015,13:18,29,07/01/2016,FR2224,20C,Tallinn / Ulemiste (TLL/EETN),London / Stansted (STN/EGSS),12:00:00
+20/01/2016,09:48,20,27/01/2016,FR2225,20C,London / Stansted (STN/EGSS),Tallinn / Ulemiste (TLL/EETN),06:45:00
+03/02/2016,10:26,25,10/02/2016,FR2225,19F,London / Stansted (STN/EGSS),Tallinn / Ulemiste (TLL/EETN),06:45:00
