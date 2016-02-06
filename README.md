@@ -9,12 +9,9 @@ I often fly with Ryanair and I really don't like sitting in the middle seat when
 Some time ago I noticed that when I did my check-in on the first day after it opened.
 
 
------------------------------------------------------------------------
-Check-in time     Number of flights   Number of middle seats   Fraction
---------------- ------------------- ------------------------ ----------
-After 24 hours                   17                        8     0.4706
-
-Within 24 hours                  29                        1    0.03448
------------------------------------------------------------------------
+Check-in time      Number of flights   Number of middle seats    Fraction
+----------------  ------------------  -----------------------  ----------
+After 24 hours                    17                        8   0.4705882
+Within 24 hours                   29                        1   0.0344828
 
 ![](README_files/figure-html/unnamed-chunk-3-1.png) 

@@ -55,7 +55,7 @@ I often fly with Ryanair and I really don't like sitting in the middle seat when
 Some time ago I noticed that when I did my check-in on the first day after it opened.
 
 ```{r echo=FALSE}
-pander(freq_table)
+knitr::kable(freq_table)
 ```
 
 ```{r echo=FALSE}
