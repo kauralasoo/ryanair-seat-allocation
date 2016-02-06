@@ -8,12 +8,7 @@ output:
 library = function (...) suppressMessages(base::library(...))
 library("dplyr")
 library("ggplot2")
-library("pander")
-
-panderOptions('table.split.table', Inf)
-panderOptions('table.alignment.default',
-              function (df) ifelse(sapply(df, is.numeric), 'right', 'left'))
-panderOptions('table.alignment.rownames', 'left')
+library("knitr")
 
 #Load timezones
 timezones_df = read.table("data/airport_timezones.csv", sep = ",", 
@@ -55,7 +50,7 @@ I often fly with Ryanair and I really don't like sitting in the middle seat when
 Some time ago I noticed that when I did my check-in on the first day after it opened.
 
 ```{r echo=FALSE}
-freq_table
+kable(freq_table, format = "markdown")
 ```
 
 ```{r echo=FALSE}
