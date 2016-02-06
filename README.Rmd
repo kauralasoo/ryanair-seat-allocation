@@ -3,8 +3,65 @@ output:
   html_document: 
     keep_md: yes
 ---
+
+```{r echo=FALSE}
+library = function (...) suppressMessages(base::library(...))
+library("dplyr")
+library("ggplot2")
+library("pander")
+
+panderOptions('table.split.table', Inf)
+panderOptions('table.alignment.default',
+              function (df) ifelse(sapply(df, is.numeric), 'right', 'left'))
+panderOptions('table.alignment.rownames', 'left')
+
+#Load timezones
+timezones_df = read.table("data/airport_timezones.csv", sep = ",", 
+                          header = TRUE, colClasses = c("character", "character"), stringsAsFactors = FALSE)
+
+#Load data
+data = read.table("data/ryanair_checkin_data.csv", header = TRUE, sep = ",", stringsAsFactors = FALSE) %>%
+  dplyr::mutate(checkin_datetime =  paste(checkin_date, checkin_time)) %>%
+  dplyr::mutate(departure_datetime = paste(departure_date, departure_time)) %>%
+  dplyr::left_join(timezones_df, by = "from") %>%
+  dplyr::tbl_df()
+
+#Caclulate difference in days
+checkin = strptime(data$checkin_datetime, "%d/%m/%Y %H:%M", tz = "GMT")
+departure = strptime(paste(data$departure_datetime, data$timezone), "%d/%m/%Y %H:%M:%S %z", tz = "GMT")
+data = dplyr::mutate(data, days_before_departure = as.numeric(departure-checkin))
+
+#Extract row letters and numbers
+data_seat_classes = dplyr::mutate(data, seat_letter = stringr::str_extract(data$seat_number, '\\D')) %>%
+  dplyr::mutate(seat_row = as.numeric(stringr::str_extract(data$seat_number, '\\d+'))) %>%
+  dplyr::mutate(seat_is_middle = ifelse(seat_letter == "B" | seat_letter == "E", TRUE, FALSE)) %>%
+  dplyr::mutate(checkin_first_day = ifelse(days_before_departure >= 6, TRUE, FALSE)) %>%
+  dplyr::mutate(checkin_text = ifelse(checkin_first_day, "Within 24 hours", "After 24 hours"))
+
+#Calculate the frequency of getting middle seats
+freq_table = dplyr::group_by(data_seat_classes, checkin_text) %>% 
+  summarise(middle_seat_count = length(which(seat_is_middle)), total_count = length(seat_is_middle)) %>%
+  dplyr::select(checkin_text, total_count, middle_seat_count) %>%
+  dplyr::mutate(frequency = middle_seat_count/total_count) %>%
+  as.data.frame()
+colnames(freq_table) = c("Check-in time", "Number of flights", "Number of middle seats", "Fraction")
+```
+
+
 # How to avoid middle seats when flying with Ryanair for free?
 
 I often fly with Ryanair and I really don't like sitting in the middle seat when doing so. Avoiding these seats used to be quite easy until a couple of years ago when Ryanair started to *randomly* assign seats at the time of check-in. After that, it seemed that the only way to avoid middle seats for sure was to pay an extra 6 GBP/EUR fee to select your own seat. But what if you don't really care about the exact place where you are sitting and you just want to reduce the chance of sitting in the middle? If the seats are allocated completely at random then your chances of ending up at a middle seat should be approximately 1/3. However, what if the random seat allocation is actually not completely random? 
 
 Some time ago I noticed that when I did my check-in on the first day after it opened.
+
+```{r echo=FALSE}
+pander(freq_table)
+```
+
+```{r echo=FALSE}
+ggplot(data_seat_classes, aes(x = as.factor(seat_row))) + geom_histogram() + 
+  facet_wrap(~checkin_text) + 
+  xlab("Seat row") + 
+  ylab("Number of flights") + 
+  theme_bw()
+```
