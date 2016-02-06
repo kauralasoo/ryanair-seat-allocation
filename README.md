@@ -13,5 +13,9 @@ Some time ago I noticed that when I did my check-in on the first day after it op
 |:---------------|-----------------:|----------------------:|---------:|
 |After 24 hours  |                17|                      8| 0.4705882|
 |Within 24 hours |                29|                      1| 0.0344828|
+ 
+But are there any downsides to doing your check-in early? Yes, you are likely to be one of the last person to get off the plane when it lands. That's because the seat allocation tends to start from the rows that are in the middle of the plane. The next figure shows how check-ins done within the first 24 hours almost always give you a seat in rows between 15-22 (exluding emergency exit rows 16 and 17). On the otherhand, for check-ins done later there is no such strong row bias and you are more likely to sit eihter towards the fron end or back end of the plane.
 
 ![](README_files/figure-html/unnamed-chunk-3-1.png) 
+
+##Technical details
