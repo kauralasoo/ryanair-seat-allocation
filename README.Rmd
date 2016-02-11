@@ -66,8 +66,8 @@ ggplot(data_seat_classes, aes(x = as.factor(seat_row))) + geom_histogram() +
 
 ##Technical details
 * **Where did you get the check-in times from?** Whenever I check in for a flight, I always download the PDF copy of the boarding pass and save it into a folder on my computer. This means that all of these files have last modification date attached to them. The last time the boarding pass file was modified corresponds almost perfectly to the time that I checked in for the flight.
-* **Is this analysis reproducible?** Yes! All of the raw data is the the `data/` subfolder of this repository and all of the neccessary code is in the README.Rmd Rmarkdown document.
-* **Can I condtribute?** Of course. If you've got lots of Ryanair boarding pass PDFs lying around that have the correct check-in times attached to them then add them to the `data/ryanair_chedkin_data.csv` and send them to me either via e-mail (kauralasoo [at] gmail.com) or as a github pull request. If you are interested in doing additional analysis on this data then feel free to fork this repository.
+* **Is this analysis reproducible?** Yes! All of the raw data is the the `data/` subfolder of this repository and all of the neccessary code is in the `README.Rmd` Rmarkdown document.
+* **Can I condtribute?** Of course. If you've got lots of Ryanair boarding pass PDFs lying around that have the correct check-in times attached to them then add them to the `data/ryanair_checkin_data.csv` and send them to me either via e-mail (kauralasoo [at] gmail.com) or as a github pull request. If you are interested in doing additional analysis on this data then feel free to fork this repository.
 
 
 
