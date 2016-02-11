@@ -6,13 +6,13 @@
 
 I'm a frequent flier with Ryanair and I like their assigned seats policy, but I really don't like sitting on the middle seat. At a first glance, it seems that the seats are assigned *randomly* and the only way to avoid sitting in the middle is to pay the 6 GBP/EUR fee to choose your own seat. But what if their seat allocation is not actually completely random and you can predict which seat you are likely to get? 
 
-Some time ago, I noticed that when I checked in early I was less likely to sit in the middle compared to checking in later. To check if this was really the case, I compared the check-in times to the deparure times for all 46 Ryanair flights that I have taken during the last two years. Indeed, when I checked in during the first 24 hours I ended up sitting in the middle only on 1 out of 29 (3.5%) flights whereas this increased to 8/17 (47%) when I checked in later:
+Some time ago, I noticed that when I checked in early I was less likely to sit in the middle compared to checking in later. To check if this was really the case, I compared the check-in times to the deparure times for all 46 Ryanair flights that I have taken during the last two years. Indeed, when I checked in during the first 24 hours I ended up sitting in the middle only on 1 out of 29 (3.4%) flights whereas this increased to 8/17 (47%) when I checked in later:
 
 
-|Check-in time   | Number of flights| Number of middle seats|  Fraction|
-|:---------------|-----------------:|----------------------:|---------:|
-|After 24 hours  |                17|                      8| 0.4705882|
-|Within 24 hours |                29|                      1| 0.0344828|
+|Check-in time   | Number of flights| Number of middle seats| Fraction|
+|:---------------|-----------------:|----------------------:|--------:|
+|After 24 hours  |                17|                      8|    0.471|
+|Within 24 hours |                29|                      1|    0.034|
 So there you have it, if you don't want to sit in the middle then checking in early does indeed look very promising.
 
 But are there any downsides to early check-in? Well, you are likely to be one of the last person to get off the plane when it lands. That's because the seat allocation tends to start from the rows that are in the middle of the plane. The follwing figure shows how check-ins done within the first 24 hours almost always give you a seat in rows between 15-22 (exluding emergency exit rows 16 and 17). On the otherhand, for check-ins done later there is no strong row bias and you are more likely to sit eihter towards the front end or the back end of the plane.

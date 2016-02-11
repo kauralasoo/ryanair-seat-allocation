@@ -37,7 +37,7 @@ data_seat_classes = dplyr::mutate(data, seat_letter = stringr::str_extract(data$
 freq_table = dplyr::group_by(data_seat_classes, checkin_text) %>% 
   summarise(middle_seat_count = length(which(seat_is_middle)), total_count = length(seat_is_middle)) %>%
   dplyr::select(checkin_text, total_count, middle_seat_count) %>%
-  dplyr::mutate(frequency = middle_seat_count/total_count) %>%
+  dplyr::mutate(frequency = round(middle_seat_count/total_count,3)) %>%
   as.data.frame()
 colnames(freq_table) = c("Check-in time", "Number of flights", "Number of middle seats", "Fraction")
 ```
@@ -47,7 +47,7 @@ colnames(freq_table) = c("Check-in time", "Number of flights", "Number of middle
 
 I'm a frequent flier with Ryanair and I like their assigned seats policy, but I really don't like sitting on the middle seat. At a first glance, it seems that the seats are assigned *randomly* and the only way to avoid sitting in the middle is to pay the 6 GBP/EUR fee to choose your own seat. But what if their seat allocation is not actually completely random and you can predict which seat you are likely to get? 
 
-Some time ago, I noticed that when I checked in early I was less likely to sit in the middle compared to checking in later. To check if this was really the case, I compared the check-in times to the deparure times for all 46 Ryanair flights that I have taken during the last two years. Indeed, when I checked in during the first 24 hours I ended up sitting in the middle only on 1 out of 29 (3.5%) flights whereas this increased to 8/17 (47%) when I checked in later:
+Some time ago, I noticed that when I checked in early I was less likely to sit in the middle compared to checking in later. To check if this was really the case, I compared the check-in times to the deparure times for all 46 Ryanair flights that I have taken during the last two years. Indeed, when I checked in during the first 24 hours I ended up sitting in the middle only on 1 out of 29 (3.4%) flights whereas this increased to 8/17 (47%) when I checked in later:
 
 ```{r echo=FALSE}
 kable(freq_table, format = "markdown")
