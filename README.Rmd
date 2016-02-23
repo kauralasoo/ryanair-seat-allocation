@@ -24,7 +24,7 @@ data = read.table("data/ryanair_checkin_data.csv", header = TRUE, sep = ",", str
 #Caclulate difference in days
 checkin = strptime(data$checkin_datetime, "%d/%m/%Y %H:%M", tz = "GMT")
 departure = strptime(paste(data$departure_datetime, data$timezone), "%d/%m/%Y %H:%M:%S %z", tz = "GMT")
-data = dplyr::mutate(data, days_before_departure = as.numeric(departure-checkin))
+data = dplyr::mutate(data, days_before_departure = as.numeric(departure-checkin)/24)
 
 #Extract row letters and numbers
 data_seat_classes = dplyr::mutate(data, seat_letter = stringr::str_extract(data$seat_number, '\\D')) %>%
