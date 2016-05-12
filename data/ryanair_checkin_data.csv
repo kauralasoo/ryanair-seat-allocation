@@ -48,3 +48,7 @@ checkin_date,checkin_time,seq_no,departure_date,flight_number,seat_number,from,t
 09/02/2016,14:56,76,15/02/2016,FR2224,26F,Tallinn / Ulemiste (TLL/EETN),London / Stansted (STN/EGSS),12:00:00
 23/02/2016,18:20,,24/02/2016,FR2224,16C,Tallinn / Ulemiste (TLL/EETN),London / Stansted (STN/EGSS),12:00:00
 23/02/2016,18:20,,28/02/2016,FR2225,30E,London / Stansted (STN/EGSS),Tallinn / Ulemiste (TLL/EETN),06:45:00
+09/03/2016,09:14,26,16/03/2016,FR2225,20A,London / Stansted (STN/EGSS),Tallinn / Ulemiste (TLL/EETN),06:45:00
+21/03/2016,11:31,27,28/03/2016,FR2224,20B,Tallinn / Ulemiste (TLL/EETN),London / Stansted (STN/EGSS),12:00:00
+13/04/2016,13:10,31,20/04/2016,FR2225,22A,London / Stansted (STN/EGSS),Tallinn / Ulemiste (TLL/EETN),06:45:00
+05/05/2016,09:33,15,12/05/2016,FR2642,33F,London / Stansted (STN/EGSS),Riga / Riga (RIX/EVRA),06:25:00
