@@ -57,7 +57,7 @@ So there you have it, if you don't want to sit in the middle then checking in ea
 But are there any downsides to early check-in? Well, you are likely to be one of the last person to get off the plane when it lands. That's because the seat allocation tends to start from the rows that are in the middle of the plane. The follwing figure shows how check-ins done within the first 24 hours almost always give you a seat in rows between 15-22 (exluding emergency exit rows 16 and 17). On the otherhand, for check-ins done later there is no strong row bias and you are more likely to sit eihter towards the front end or the back end of the plane.
 
 ```{r echo=FALSE}
-ggplot(data_seat_classes, aes(x = as.factor(seat_row))) + geom_histogram() + 
+ggplot(data_seat_classes, aes(x = as.factor(seat_row))) + geom_bar() + 
   facet_wrap(~checkin_text) + 
   xlab("Seat row") + 
   ylab("Number of flights") + 

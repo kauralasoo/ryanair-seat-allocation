@@ -52,3 +52,8 @@ checkin_date,checkin_time,seq_no,departure_date,flight_number,seat_number,from,t
 21/03/2016,11:31,27,28/03/2016,FR2224,20B,Tallinn / Ulemiste (TLL/EETN),London / Stansted (STN/EGSS),12:00:00
 13/04/2016,13:10,31,20/04/2016,FR2225,22A,London / Stansted (STN/EGSS),Tallinn / Ulemiste (TLL/EETN),06:45:00
 05/05/2016,09:33,15,12/05/2016,FR2642,33F,London / Stansted (STN/EGSS),Riga / Riga (RIX/EVRA),06:25:00
+15/05/2016,19:45,160,16/05/2016,FR2224,04E,Tallinn / Ulemiste (TLL/EETN),London / Stansted (STN/EGSS),12:00:00
+20/05/2016,10:00,10,27/05/2016,FR3632,33A,London / Stansted (STN/EGSS),Bremen / Bremen (BRE/EDDW),07:55:00
+20/05/2016,17:35,11,27/05/2016,FR4974,33F,Bremen / Bremen (BRE/EDDW),Tallinn / Ulemiste (TLL/EETN),17:00:00
+05/06/2016,11:30,28,10/06/2016,FR3632,15D,London / Stansted (STN/EGSS),Bremen,07:55:00
+05/06/2016,11:30,66,10/06/2016,FR4974,12F,Bremen / Bremen (BRE/EDDW),Tallinn / Ulemiste (TLL/EETN),17:00:00
