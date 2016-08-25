@@ -14,8 +14,8 @@ Some time ago, I noticed that when I checked in early I was less likely to sit i
 
 |Check-in time   | Number of flights| Number of middle seats| Fraction|
 |:---------------|-----------------:|----------------------:|--------:|
-|After 24 hours  |                23|                     10|    0.435|
-|Within 24 hours |                35|                      2|    0.057|
+|After 24 hours  |                25|                     11|     0.44|
+|Within 24 hours |                43|                      6|     0.14|
 So there you have it, if you don't want to sit in the middle then checking in early does indeed look very promising.
 
 But are there any downsides to early check-in? Well, you are likely to be one of the last person to get off the plane when it lands. That's because the seat allocation tends to start from the rows that are in the middle of the plane. The follwing figure shows how check-ins done within the first 24 hours almost always give you a seat in rows between 15-22 (exluding emergency exit rows 16 and 17). On the otherhand, for check-ins done later there is no strong row bias and you are more likely to sit eihter towards the front end or the back end of the plane.
