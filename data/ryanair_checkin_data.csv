@@ -67,3 +67,15 @@ checkin_date,checkin_time,seq_no,departure_date,flight_number,seat_number,from,t
 05/08/2016,10:23,32,12/08/2016,FR2225,19B,London / Stansted (STN/EGSS),Tallinn / Ulemiste (TLL/EETN),06:45:00
 14/08/2016,10:12,167,15/08/2016,FR4975,01B,Tallinn / Ulemiste (TLL/EETN),Bremen / Bremen (BRE/EDDW),19:20:00
 15/08/2016,13:09,23,15/08/2016,FR4974,16F,Bremen / Bremen (BRE/EDDW),London / Stansted (STN/EGSS),21:45:00
+26/08/2016,10:49,9,02/09/2016,FR2225,33D,London / Stansted (STN/EGSS),Tallinn / Ulemiste (TLL/EETN),06:45:00
+11/09/2016,06:55,22,18/09/2016,FR2225,33C,London / Stansted (STN/EGSS),Tallinn / Ulemiste (TLL/EETN),06:45:00
+19/09/2016,10:09,59,26/09/2016,FR2224,15A,Tallinn / Ulemiste (TLL/EETN),London / Stansted (STN/EGSS),12:00:00
+28/10/2016,17:33,36,04/11/2016,FR2225,19D,London / Stansted (STN/EGSS),Tallinn / Ulemiste (TLL/EETN),06:45:00
+31/10/2016,11:15,43,07/11/2016,FR2224,24A,Tallinn / Ulemiste (TLL/EETN),London / Stansted (STN/EGSS),12:00:00
+08/11/2016,09:07,32,12/11/2016,FR752,33E,London / Stansted (STN/EGSS),Hahn / Hahn (HHN/EDFH),07:40:00
+12/11/2016,07:12,34,16/11/2016,FR2225,33C,London / Stansted (STN/EGSS),Tallinn / Ulemiste (TLL/EETN),06:45:00
+17/11/2016,11:44,75,21/11/2016,FR2224,12C,Tallinn / Ulemiste (TLL/EETN),London / Stansted (STN/EGSS),12:00:00
+28/11/2016,07:14,29,02/12/2016,FR2225,33D,London / Stansted (STN/EGSS),Tallinn / Ulemiste (TLL/EETN),06:45:00
+01/12/2016,10:53,60,05/12/2016,FR2224,22B,Tallinn / Ulemiste (TLL/EETN),London / Stansted (STN/EGSS),12:00:00
+16/12/2016,11:32,40,20/12/2016,FR4192,24E,London / Stansted (STN/EGSS),Bergamo / Orio Al Serio (BGY/LIME),08:05:00
+16/12/2016,11:36,53,20/12/2016,FR4764,24C,Bergamo / Orio Al Serio (BGY/LIME),Tallinn / Ulemiste (TLL/EETN),16:55:00
